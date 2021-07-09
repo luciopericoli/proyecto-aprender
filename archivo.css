@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 .lista-menu{
     display: flex;
     align-items: center;
@@ -39,14 +40,9 @@
     border-radius: 10px;
 }
 .header .titulo{
+    text-align: center;
     background-color: wheat;
     width: 100%;
-    height: 40px;
-}
-.header h2{
-    width: 100%;
-    color: rgb(0, 0, 0);
-    background-color: wheat;
     height: 40px;
 }
 
@@ -55,10 +51,25 @@
 }
 
 footer{
+    display: flex;
     background-color: coral;
     color: black;
-    height: 100px;
+    height: auto;
+    font-family: 'Rancho', cursive; 
     width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+footer div p{
+   font-size: 40px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: #000;
+    font-size: 40px;
+    margin: auto;
+    padding-left: 30px;
 }
 
 .quien-somos{
@@ -69,3 +80,19 @@ footer{
     color: yellowgreen;
 }
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: thistle;
+  }
+
+  table, th, td img {
+      height: 100px;
+      width: 100px;
+
+  }
+
+ footer div a img{
+      width: 40px;
+      height: 40px;
+  }
