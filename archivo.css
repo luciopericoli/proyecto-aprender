@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body{
+    background-image: url('https://images.pexels.com/photos/1959052/pexels-photo-1959052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  
+}
 .lista-menu{
     display: flex;
     align-items: center;
@@ -46,8 +51,9 @@
     height: 40px;
 }
 
-#formulario{
-    background-color: coral;
+#Formulario{
+    text-align: center;
+    color: white;
 }
 
 footer{
@@ -73,26 +79,80 @@ footer div a{
 }
 
 .quien-somos{
-    color:red;
+    color:white;
+    font-family: 'Staatliches', cursive;
+    word-spacing: 20px;
+    text-align: center;
+    letter-spacing: 10px;
 }
 
 #texto-productos{
-    color: yellowgreen;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 10px;
+   
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    background-color: thistle;
-  }
 
-  table, th, td img {
-      height: 100px;
-      width: 100px;
-
-  }
 
  footer div a img{
       width: 40px;
       height: 40px;
+  }
+
+  .Sucursal{
+    font-family: 'Staatliches', cursive;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    color: white;
+  }
+  
+
+  .textoAccesorios{
+     color: white;
+     font-family: 'Staatliches', cursive;
+     word-spacing: 20px;
+  }
+
+
+  .textoProm{
+      color: white;
+  }
+
+  #tablaProducto{
+      width: 100%;
+      margin-left: 35%;
+  }
+
+  .tabla{
+      background-color: rgba(255, 255, 255, 0.288);
+  }
+  .tabla tr td{
+      text-align: center;
+      width: 100px;
+      height: 100px;
+  }
+
+  .tabla tr td img{
+    width: 100px;
+    height: 100px;
+  }
+  #tablaAccesorios{
+    width: 100%;
+    margin-left: 35%;
+  }
+  .accesorios{
+      background-color: rgba(255, 255, 255, 0.288);
+  }
+
+  .accesorios tr td{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+  }
+
+  .accesorios tr td img{
+    width: 100px;
+    height: 100px;
   }
