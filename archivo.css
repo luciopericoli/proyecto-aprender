@@ -4,13 +4,13 @@ body{
     background-image: url('https://images.pexels.com/photos/1959052/pexels-photo-1959052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   
 }
-.lista-menu{
+.listaMenu{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.lista-menu li{
+.listaMenu li{
     
     width: fit-content;
     list-style: none;
@@ -18,7 +18,7 @@ body{
    
 }
 
-.lista-menu li a{
+.listaMenu li a{
     background-color: blanchedalmond;
     text-decoration: none;
     color: black;
@@ -27,7 +27,7 @@ body{
     font-size: 20px;
 }
 
-.lista-menu li a:hover {
+.listaMenu li a:hover {
     background-color: black;
     color: wheat;
 
@@ -51,7 +51,7 @@ body{
     height: 40px;
 }
 
-#Formulario{
+#formulario{
     text-align: center;
     color: white;
 }
@@ -78,7 +78,7 @@ footer div a{
     padding-left: 30px;
 }
 
-.quien-somos{
+.quienSomos{
     color:white;
     font-family: 'Staatliches', cursive;
     word-spacing: 20px;
@@ -86,7 +86,7 @@ footer div a{
     letter-spacing: 10px;
 }
 
-#texto-productos{
+#textoProductos{
     color: whitesmoke;
     text-align: center;
     font-family: 'Staatliches', cursive;
@@ -101,7 +101,7 @@ footer div a{
       height: 40px;
   }
 
-  .Sucursal{
+  .sucursal{
     font-family: 'Staatliches', cursive;
     word-spacing: 10px;
     letter-spacing: 10px;
