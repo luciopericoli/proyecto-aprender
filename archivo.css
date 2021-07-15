@@ -27,6 +27,7 @@ body{
     padding: 5px;
     border-radius: 20px;
     font-size: 20px;
+    
 }
 
 .listaMenu li a:hover {
@@ -66,11 +67,14 @@ footer{
     display: flex;
     background-color: rgba(255, 127, 80, 0.459);
     color: black;
-    height: auto;
+    height: 170px;
     font-family: 'Rancho', cursive; 
     width: 100%;
     align-items: center;
     justify-content: center;
+    margin-top:50px;
+    width:100%;
+    
 }
 footer div p{
    font-size: 40px;
