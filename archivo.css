@@ -166,3 +166,9 @@ footer div a{
     width: 100px;
     height: 100px;
   }
+  
+.listaDesplegable{
+    display: block;
+    text-decoration: none;
+    background-color: black;
+}
