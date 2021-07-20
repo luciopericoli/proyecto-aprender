@@ -172,3 +172,8 @@ footer div a{
     text-decoration: none;
     background-color: black;
 }
+
+#padreFlex{
+display: flex;
+flex-direction: column;
+}
