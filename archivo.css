@@ -10,13 +10,15 @@ body{
     align-items: center;
     justify-content: space-evenly;
     font-family: 'Bangers', cursive;
+    margin: auto;
 }
 
 .listaMenu li{
-    
+    padding: 10px 10px 10px 10px;
     width: fit-content;
     list-style: none;
     margin-left: 20px;
+    
    
 }
 
@@ -67,23 +69,24 @@ footer{
     display: flex;
     background-color: rgba(255, 127, 80, 0.459);
     color: black;
-    height: 170px;
+    height: auto;
     font-family: 'Rancho', cursive; 
-    width: 100%;
     align-items: center;
     justify-content: center;
     margin-top:50px;
     width:100%;
-    
+    position: fixed;
+    bottom: 0;
 }
+
 footer div p{
-   font-size: 40px;
+   font-size: 20px;
 }
 
 footer div a{
     text-decoration: none;
     color: #000;
-    font-size: 40px;
+    font-size: 20px;
     margin: auto;
     padding-left: 30px;
 }
@@ -173,7 +176,59 @@ footer div a{
     background-color: black;
 }
 
-#padreFlex{
+.padreFlex{
 display: flex;
 flex-direction: column;
 }
+
+#grid{
+    display: grid;
+    background-color: none;
+    grid-template-columns: 100% ;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    
+}
+
+#grid div{
+    background-color: none;
+    margin: auto;
+}
+
+.lorem{
+    height: 2000px;
+    width: 100%;
+    
+}
+
+@media only screen and (min-width: 768px) {
+      #grid {
+          grid-template-columns: 50% 50%;
+          
+      }
+
+      footer div p{
+        font-size: 50px;
+     }
+     
+     footer div a{
+         font-size: 30px;
+        }
+}
+
+@media only screen and (min-width: 1024px) {
+    #grid {
+grid-template-columns: 30% 30% 30%;
+    }
+    footer div p{
+        font-size: 50px;
+        
+     }
+     
+     footer div a{
+         font-size: 50px;
+         
+        }
+
+}
+
