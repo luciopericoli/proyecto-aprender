@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 body{
     background-image: url('https://images.pexels.com/photos/1959052/pexels-photo-1959052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   
@@ -38,27 +39,19 @@ body{
 
 
 }
-    
-.header {
-    background-color:none;
-    width: 100%;
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
-    border-radius: 10px;
-    font-family: 'Bangers', cursive;
-    word-spacing: 20px;
-    letter-spacing: 10px;
-    
+
+#barra{
+    background-color: rgba(0, 0, 0, 0.185);
 }
-.header .titulo{
-    text-align: center;
-    background-color: rgba(245, 222, 179, 0.548);
-    width: 100%;
-    height: 40px;
-    border-radius: 20px;
+
+#barra div a{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 4vh;
+}
+
+#barra div form{
+    font-family: 'Pacifico', cursive;
 }
 
 
@@ -70,45 +63,120 @@ body{
     align-items: center;
 }
 
-footer{
-    display: flex;
-    background-color: rgba(255, 127, 80, 0.459);
-    color: black;
-    height: 20%;
-    font-family: 'Rancho', cursive; 
-    align-items: center;
-    justify-content: center;
-    margin-top:50px;
-    width:100%;
-    position: fixed;
-    bottom: 0;
-    background-image: linear-gradient(to top, rgba(255, 0, 0, 0.144) , rgba(255, 255, 0, 0.178));
-}
-
-footer div p{
-   font-size: 20px;
-}
-
-footer div a{
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top:100px;
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer a:hover {
+    color: #FA944B;
     text-decoration: none;
-    color: #000;
-    font-size: 20px;
-    margin: auto;
-    padding-left: 30px;
-}
-
-.quienSomos{
-    color:white;
-    font-family: 'Staatliches', cursive;
-    word-spacing: 20px;
+  }
+  
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+  
+  /*SOCİAL İCONS*/
+  
+  /* footer social icons */
+  
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  /* footer social icons */
+  
+  .social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+  }
+  
+  .social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+  }
+  
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoLinkedin:hover i {
+    color: #fff;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44BCDD;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
     text-align: center;
-    letter-spacing: 10px;
-}
-
-.textoPerfil{
-    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
     text-align: center;
-}
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .social-network a {
+    background-color: #F9F9F9;
+  }
+  
+
 
 
 
@@ -209,7 +277,6 @@ flex-direction: column;
 }
 
 .lorem{
-    height: 2000px;
     width: 100%;
     color: blanchedalmond;
 }
@@ -220,28 +287,11 @@ flex-direction: column;
           
       }
 
-      footer div p{
-        font-size: 50px;
-     }
-     
-     footer div a{
-         font-size: 30px;
-        }
+   
 }
 
 @media only screen and (min-width: 1024px) {
     #grid {
 grid-template-columns: 30% 30% 30%;
     }
-    footer div p{
-        font-size: 50px;
-        
-     }
-     
-     footer div a{
-         font-size: 50px;
-         
-        }
-
 }
-
