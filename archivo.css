@@ -6,15 +6,25 @@ body{
     background-image: url('https://images.pexels.com/photos/1959052/pexels-photo-1959052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   
 }
-.listaMenu{
-    display: flex;
+#listaMenu{
+    
     align-items: center;
-    justify-content: space-evenly;
+  
     font-family: 'Bangers', cursive;
     margin: auto;
+    display: grid;
+    background-color: none;
+    grid-template-columns: 100% ;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
 }
 
-.listaMenu li{
+#listaMenu div{
+  background-color: none;
+  margin: auto;
+}
+
+#listaMenu li{
     padding: 10px 10px 10px 10px;
     width: fit-content;
     list-style: none;
@@ -23,7 +33,7 @@ body{
    
 }
 
-.listaMenu li a{
+#listaMenu li a{
     background-color: blanchedalmond;
     text-decoration: none;
     color: black;
@@ -33,7 +43,7 @@ body{
     
 }
 
-.listaMenu li a:hover {
+#listaMenu li a:hover {
     background-color: black;
     color: wheat;
 
@@ -262,19 +272,8 @@ display: flex;
 flex-direction: column;
 }
 
-#grid{
-    display: grid;
-    background-color: none;
-    grid-template-columns: 100% ;
-    grid-template-rows: auto auto;
-    justify-content: space-around;
-    
-}
 
-#grid div{
-    background-color: none;
-    margin: auto;
-}
+
 
 .lorem{
     width: 100%;
@@ -282,7 +281,7 @@ flex-direction: column;
 }
 
 @media only screen and (min-width: 768px) {
-      #grid {
+      #listaMenu {
           grid-template-columns: 50% 50%;
           
       }
@@ -291,7 +290,7 @@ flex-direction: column;
 }
 
 @media only screen and (min-width: 1024px) {
-    #grid {
+    #listaMenu {
 grid-template-columns: 30% 30% 30%;
     }
 }
