@@ -18,22 +18,17 @@ body{
     grid-template-rows: auto auto;
     justify-content: space-around;
 }
-
-#listaMenu div{
+div{
   background-color: none;
   margin: auto;
 }
-
-#listaMenu li{
+li{
     padding: 10px 10px 10px 10px;
     width: fit-content;
     list-style: none;
     margin-left: 20px;
-    
-   
-}
-
-#listaMenu li a{
+    }
+li a{
     background-color: blanchedalmond;
     text-decoration: none;
     color: black;
