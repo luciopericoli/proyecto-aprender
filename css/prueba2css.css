@@ -3,6 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+h1 {
+  color: white; }
+
+h3 {
+  color: white; }
+
 body {
   background-image: url("https://images.pexels.com/photos/1959052/pexels-photo-1959052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); }
 
@@ -63,7 +69,8 @@ footer {
   margin-top: 100px; }
 
 footer a {
-  color: #fff;
+  font-family: "Bangers", cursive;
+  color: black;
   font-size: 14px;
   transition-duration: 0.2s; }
 
